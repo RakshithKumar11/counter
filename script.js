@@ -4,8 +4,7 @@ const add = (function(){
         counter +=1;
         if(counter == 7){
             document.getElementById('thala').innerHTML = "Thala for a reason";
-            var music = document.getElementById('sound');
-            music.play();
+            document.getElementById('sound').play();
         }
         else{
             document.getElementById('thala').innerHTML = "";
